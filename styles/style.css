@@ -1,4 +1,5 @@
 * {
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
@@ -6,61 +7,64 @@
   text-decoration: none;
 }
 
-body {
-  background: url(../images/setup-bg.png) no-repeat center;
+.contenido-pagina {
+  background: url("../imgs/setup-bg.png") no-repeat center;
   background-size: cover;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
-/* === Style for the navigation bar === */
+/*style navigation bar*/
 
-.container {
+.contenedor {
   width: 80%;
   margin: 0 auto;
 }
 
-header {
-  background-color: #55d6aa;
+.nav {
+  position: fixed;
+}
+/* header {
+  background-color: #444444;
 }
 
 header::after {
   content: "";
   display: table;
   clear: both;
-}
-
+} */
+/* 
 .logo {
   float: left;
   padding: 10px;
-}
+} */
 
-nav {
+/* nav {
   float: right;
-}
+} */
 
-nav ul {
+/* nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
+} */
 
-nav li {
+/* nav li {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 10px;
+  padding-top: 17px;
   position: relative;
-}
+} */
 
-nav a {
-  color: #444444;
+/* nav a {
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
 }
 nav a:hover {
-  color: #000000;
+  color: #55d6aa;
 }
 
 nav a::before {
@@ -68,7 +72,7 @@ nav a::before {
   display: block;
   height: 5px;
   border-radius: 5px;
-  background-color: #444444;
+  background-color: #ffffff;
   position: absolute;
   top: 0;
   width: 0;
@@ -77,8 +81,10 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
-}
-/* === Style for the webpage content === */
+} */
+
+/*style webpage content*/
+
 .profile-card {
   width: 420px;
   overflow: hidden;
@@ -96,7 +102,6 @@ nav a:hover::before {
   position: absolute;
   top: 40px;
   font-size: 20px;
-  cursor: pointer;
   color: #ffffff50;
 }
 
