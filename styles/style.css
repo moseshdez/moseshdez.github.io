@@ -23,65 +23,24 @@
   margin: 0 auto;
 }
 
+.brand-text {
+  color: #00ebc5;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
 .nav {
   position: fixed;
 }
-/* header {
-  background-color: #444444;
-}
 
-header::after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-/* 
 .logo {
-  float: left;
-  padding: 10px;
-} */
-
-/* nav {
-  float: right;
-} */
-
-/* nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-} */
-
-/* nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 17px;
+  bottom: 5px;
   position: relative;
-} */
-
-/* nav a {
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
+  width: 40px;
+  margin-left: 94px;
 }
-nav a:hover {
-  color: #55d6aa;
-}
-
-nav a::before {
-  content: "";
-  display: block;
-  height: 5px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  position: absolute;
-  top: 0;
-  width: 0;
-  transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-  width: 100%;
-} */
 
 /*style webpage content*/
 
@@ -106,10 +65,10 @@ nav a:hover::before {
 }
 
 .message {
-  right: 40px;
+  right: 130px;
 }
 .notif {
-  left: 40px;
+  left: 130px;
 }
 
 .pic {
