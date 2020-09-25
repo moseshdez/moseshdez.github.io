@@ -1,0 +1,38 @@
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.contenido-pagina {
+  background: url("../images/setup-bg.png") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*style navigation bar*/
+
+.brand-text {
+  color: #00ebc5;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.nav {
+  position: fixed;
+}
+
+.logo {
+  bottom: 5px;
+  position: relative;
+  width: 40px;
+  margin-left: 94px;
+}
